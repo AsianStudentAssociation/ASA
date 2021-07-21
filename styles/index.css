@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:#9a0000;
+}
+nav .first{
+    flex-direction: row;
+    display:flex;
+    justify-content: flex-start;
+}
+nav .first img{
+    width: 4.8vw;
+}
+nav .first{
+    color:white;
+}
+nav .second{
+    display:flex;
+    flex-direction:row;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right:1vw;
+    margin-left: 1vw;
+    border: 1px solid #9a0000;
+}
+nav a:hover{
+    border-bottom: 1px solid white;
+}
+nav #signupbutn:hover{
+    border-bottom: 1px solid #9a0000;
+}
+#signupbutn{
+    background-color:white;
+    color:#9a0000;
+    padding-top:0.8vw;
+    padding-bottom:0.8vw;
+    padding-left:1vw;
+    padding-right:1vw;
+
+    border-radius: 5px;
+}
+
+.cent{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+#header{
+    height: 95.2vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#header section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#header section h1{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+#header section p{
+    color: rgb(201, 201, 201);
+    text-align: center;
+}
+#header section .desc{
+    width:50vw;
+}
+#header .descwrap{
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
