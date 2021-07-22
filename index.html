@@ -18,21 +18,55 @@
                 <section class="cent"><a id="signupbutn" href="#contact">SIGN UP</a></section>
             </div>
         </nav>
-        <div id="header" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/background1.jpg'); background-size: cover; ">
+        <div id="header" style="background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('img/background1.jpg'); background-size: cover; ">
             <section>
                 <h1>Asian Student Association</h1>
                 <section class="descwrap">
                 <section class="desc">
-                <p>An interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something  keyboard.An interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboard</p>
+                <p>An interactive abyssmal lorem ipsum contradictory contraption. square  something  keyboard.An interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboard</p>
                 </section>
-
+                
                 </section>
-                <i class="fas fa-arrow-circle-down"></i>
+                <section class="sign">
+                <a href="#contact">SIGN UP</a>
+                </section>
             </section>
 
         </div>
-        <div id="about">
-
-        </div>
+            <section id="about" class="about">
+                <section class="img">
+                    <img src="img/about.jpg">
+                </section>
+                <section id="content">
+                    <section id="push">
+                    <h1>About ASA</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis</p>
+                    </section>
+                </section>
+            </section>
+            <div id="signup">
+                <form action="https://sheetdb.io/api/v1/1j2naoxplysrd" id="sheetdb-form" method="POST">
+                <input name="data[firstname]">
+                <input name="data[lastname]">
+                <input name="data[email]">
+                <input name="data[number]">
+                <button type="submit" >Submit</button>
+                </form>
+                <script>
+                    var form = document.getElementById('sheetdb-form');
+                    form.addEventListener("submit", e => {
+                      e.preventDefault();
+                      fetch(form.action, {
+                          method : "POST",
+                          body: new FormData(document.getElementById("sheetdb-form")),
+                      }).then(
+                          response => response.json()
+                      ).then((html) => {
+                        // you can put any JS code here
+                        alert('success')
+                      });
+                    });
+                  </script>
+            </div>
     </body>
 </html>

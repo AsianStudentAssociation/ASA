@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Roboto:wght@300&family=STIX+Two+Math&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -5,13 +9,17 @@ body{
     margin:0;
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
+
 }
+
 nav{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     background-color:#9a0000;
+    position:fixed;
+    width:100%;
+    font-family: nunito;
 }
 nav .first{
     flex-direction: row;
@@ -33,13 +41,14 @@ nav a{
     color: white;
     margin-right:1vw;
     margin-left: 1vw;
-    border: 1px solid #9a0000;
+    border-bottom: 5px solid #9a0000;
+    border-top: 5px solid #9a0000;
 }
 nav a:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 5px solid white;
 }
 nav #signupbutn:hover{
-    border-bottom: 1px solid #9a0000;
+    border-bottom: 5px solid #9a0000;
 }
 #signupbutn{
     background-color:white;
@@ -48,8 +57,6 @@ nav #signupbutn:hover{
     padding-bottom:0.8vw;
     padding-left:1vw;
     padding-right:1vw;
-
-    border-radius: 5px;
 }
 
 .cent{
@@ -60,20 +67,23 @@ nav #signupbutn:hover{
 }
 
 #header{
-    height: 95.2vh;
+    height: 100vh;
     display:flex;
     flex-direction:row;
     justify-content:center;
+
 }
 #header section{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    font-family: roboto;
 }
 #header section h1{
-    color: white;
+    color: rgba(255, 255, 255, 0.959);
     text-align: center;
     font-size: 5vw;
+    font-family:STIX Two Math;
 }
 #header section p{
     color: rgb(201, 201, 201);
@@ -81,10 +91,70 @@ nav #signupbutn:hover{
 }
 #header section .desc{
     width:50vw;
+
 }
 #header .descwrap{
     width: 100vw;
     display:flex;
     flex-direction: row;
     justify-content: center;
+}
+#header .sign{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+
+    margin-top:4%;
+}
+.sign a{
+    text-decoration:none;
+    color:white;
+    background-color:#9a0000;
+    padding: 10px;
+    padding-left: 19.9px;
+    padding-right:20.1px;
+    font-size:120%;
+    border-radius:50px;
+}
+.sign a:hover{
+    text-decoration:none;
+    color:white;
+    background-color:#9a0000cb;
+    padding: 10px;
+    padding-left: 19.9px;
+    padding-right:20.1px;
+    font-size:120%;
+    border-radius:50px;
+}
+.about{
+    display:flex;
+    flex-direction:row;
+    padding: 15px;
+    justify-content:space-around;
+    background-color: rgb(5, 5, 20);
+    color:rgba(255, 255, 255, 0.911);
+}
+.about .img{
+    width:20%
+}
+.about img{
+    width:100%;
+}
+.about h1{
+    font-family:STIX Two Math;
+    font-size: 45px;
+    border-bottom: 5px solid #9a0000;
+}
+.about p{
+    font-family:roboto;
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.829);
+    color:rgba(255, 255, 255, 0.603);
+}
+.about #content{
+    width:67.5%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
