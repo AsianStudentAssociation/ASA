@@ -50,7 +50,7 @@
                 <h1>Asian Student Association</h1>
                 <section class="descwrap">
                 <section class="desc">
-                <p>Indian is not a language lmao. I have depression.</p>
+                <p></p>
                 </section>
                 
                 </section>
@@ -128,10 +128,10 @@
                         <h1>Sign Up</h1>
                         </section>
                 <form action="https://sheetdb.io/api/v1/1j2naoxplysrd" id="sheetdb-form" method="POST">
-                <input name="data[firstname]" placeholder="First Name" class="first">
-                <input name="data[lastname]" placeholder="Last Name">
-                <input name="data[email]" placeholder="Preferred Email">
-                <input placeholder="Phone Number" name="data[number]">
+                <input id="input1" name="data[firstname]" placeholder="First Name" class="first">
+                <input id="input2" name="data[lastname]" placeholder="Last Name">
+                <input id="input3"name="data[email]" placeholder="Preferred Email">
+                <input id="input4" placeholder="Phone Number" name="data[number]">
                 <button type="submit" >SUBMIT</button>
                 </form>
 
@@ -147,7 +147,8 @@
                           response => response.json()
                       ).then((html) => {
                         // you can put any JS code here
-                        alert('success')
+                        alert('success');
+                        document.getElementById("input").value = "";
                       });
                     });
                     </script>
