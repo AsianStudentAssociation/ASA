@@ -249,6 +249,8 @@ nav #signupbutn:hover{
     justify-content:flex-end;
     background-color: rgb(5, 5, 20);
     padding: 2%;
+    background: linear-gradient(to left,rgb(5, 5, 20),rgba(5, 5, 20, 0.966),rgba(5, 5, 20, 0.753), rgba(5, 5, 20, 0.123) ), url('../img/prathamgupta.jpg');
+ background-size: cover; 
 }
 #signupbtn  .form{
     display:flex;
@@ -464,6 +466,10 @@ nav #signupbutn:hover{
     nav .first{
         color:white;
     }
+    .first img{
+        width:10vh;
+        height:10vh;
+    }
     nav .first .cent{
     display:none;
     }
@@ -486,9 +492,11 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:column;
         position:fixed;
-        top: -160vw;
+        top: -100vh;
         width: 100%;
         z-index:1;
+        height: 90vh;
+        
     }
     #othernav a{
         font-size: 50px;
@@ -544,6 +552,7 @@ nav #signupbutn:hover{
         text-align: center;
         font-size: 14vw;
         font-family:STIX Two Math;
+        margin-top:15vh;
     }
     #home section p{
         color: rgb(201, 201, 201);
@@ -565,7 +574,7 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:row;
         justify-content: center;
-    
+        margin-bottom: 10vh;
         margin-top:4%;
     }
     .sign a{
@@ -575,7 +584,7 @@ nav #signupbutn:hover{
         padding: 30px;
         padding-left: 50px;
         padding-right:50px;
-        font-size:7.2vw;
+        font-size:5vw;
         border-radius:100px;
         text-align:center;
     }
@@ -587,6 +596,7 @@ nav #signupbutn:hover{
         justify-content:space-around;
         background-color: rgb(5, 5, 20);
         color:rgba(255, 255, 255, 0.911);
+
     }
     .about .img{
         display:none;
@@ -597,12 +607,12 @@ nav #signupbutn:hover{
     .about h1{
         text-align:center;
         font-family:STIX Two Math;
-        font-size: 60px;
+        font-size: 70px;
         border-bottom: 5px solid #9a0000;
     }
     .about p{
         font-family:roboto;
-        font-size: 25px;
+        font-size: 40px;
         color:rgba(0, 0, 0, 0.829);
         color:rgba(255, 255, 255, 0.603);
     }
@@ -617,7 +627,7 @@ nav #signupbutn:hover{
         flex-direction:column;
         justify-content:space-between;
         padding: 5vh;
-        background-color:rgb(5, 5, 20)
+        background-color:rgb(5, 5, 20);
     }
     #contact section h1{
         font-family: STIX Two Math;
@@ -689,17 +699,18 @@ nav #signupbutn:hover{
     }
     #signupbtn{
         display:flex;
-        flex-direction:row;
-        justify-content:flex-end;
+        flex-direction:column;
+        justify-content:space-between;
         background-color: rgb(5, 5, 20);
         padding: 2%;
+        background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.842)), url('../img/prathamgupta.jpg'); background-size: cover; 
     }
     #signupbtn  .form{
         display:flex;
         flex-direction:row;
         justify-content:flex-end;
         margin: 2vw;
-        margin-right: 4vw;
+        margin-right: 4vw;s
         width: 50vw;
     
     }
@@ -707,31 +718,33 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:column;
         background-color:rgba(255, 255, 255, 0);
-        width: 50vw;
+        width: 63.56vw;
         margin-right: 5vw;
         margin-left: 5vw;
+        margin: 0 auto;
     }
     
     #signupbtn  h1{
         display:flex;
         flex-direction:column;
-        color:rgba(255, 255, 255, 0.534);
+        color:rgba(255, 255, 255, 0.658);
         font-family: STIX Two Math;
         text-align: left;
         font-size:60px;
         padding: 0px;
-        margin: 15px;
-        margin-top:40%;
+        margin: 30px;
+        text-align:center;
+        border-bottom: 5px solid #9a0000;
     
     }
     #signupbtn  form input{
        padding: 10px;
-       margin: 10 15 10 15px;
+       margin: 30 30 30 30px;
        border:none;
        background-color: transparent;
-       font-size: 30px;
+       font-size: 45px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.349);
-        color: rgba(255, 255, 255, 0.808);
+        color: rgba(255, 255, 255, 0.842);
     }
     #signupbtn  form input:focus{
         outline:none;
@@ -739,7 +752,7 @@ nav #signupbutn:hover{
      }
     
     #signupbtn  form button{
-        padding: 19px;
+        padding: 24px;
         margin: 15px;
         margin-top:25px;
         margin-bottom:20px;
@@ -747,7 +760,7 @@ nav #signupbutn:hover{
         border:none;
         color:rgba(255, 255, 255, 0.795);
         border-radius: 50px;
-        font-size: 30px;
+        font-size: 40px;
      }
     
      footer{
