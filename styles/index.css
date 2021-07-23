@@ -10,6 +10,11 @@
 html{
     scroll-behavior: smooth;
 }
+.linkup{
+    position:relative;
+    top:-10vh;
+    font-size:0.01px;
+}
 body{
     margin:0;
     display: flex;
@@ -432,6 +437,11 @@ nav #signupbutn:hover{
 @media only screen and (orientation:portrait) {
     html{
         scroll-behavior: smooth;
+    }
+    .linkup{
+        position:relative;
+        top:-10vh;
+        font-size:0.01px;
     }
     body{
         margin:0;
