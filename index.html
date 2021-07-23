@@ -18,13 +18,39 @@
                 <section class="cent"><a href="#contact">CONTACT</a></section>
                 <section class="cent"><a id="signupbutn" href="#signupbtn">SIGN UP</a></section>
             </div>
+            <div class="third">
+                <i onclick="nav()" class="fas fa-bars"></i>
+            </div>
+            <script>
+                var down = false;
+                function nav(){
+                    
+                    if(down){
+                        down = false;
+                        document.getElementById("othernav").style.top = "-160vw";
+                        
+                    }else{
+                        down = true;
+                        document.getElementById("othernav").style.top = "20vw";
+                    }
+
+                }
+            </script>
         </nav>
+        <div id="othernav">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#events">EVENTS</a>
+            <a href="#education">EDUCATION</a>
+            <a href="#contact">CONTACT</a>
+            <a id="signupbutn" href="#signupbtn">SIGN UP</a>
+        </div>
         <div id="home"style="background: linear-gradient( rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.767) ), url('img/background1.jpg'); background-size: cover; ">
             <section>
                 <h1>Asian Student Association</h1>
                 <section class="descwrap">
                 <section class="desc">
-                <p>An interactive abyssmal lorem ipsum contradictory contraption. square  something  keyboard.An interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboard</p>
+                <p>An interactive abyssmal lorem ipsum contradiactive abyssmaon. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboardAn interactive abyssmal lorem ipsum contradictory contraption. square angular linear gradient something keyboard</p>
                 </section>
                 
                 </section>
@@ -45,9 +71,25 @@
                     </section>
                 </section>
             </section>
+            <div id="events" style="background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ), url('img/background3.jpg'); background-size: cover; ">
+                <section class="header"><h1>Events</h1></section>
+                <section class="eventswrap">
+                    <div class="event">
+                        <img src="img/sofo.jpg">
+                        <section class="det">
+                            <div class="eventh"><h4>Sofopalooza</h4><section class="dt">Jul. 23, 2021 at 8:00am - 9:00am</section></div>
 
-        </div>
-
+                            <p>This is an event at South Forsyth High School. It is a great time to ask questions about ASA and gather details about joining the club.</p>
+                            <a>Learn More</a>
+                        </section>
+                    </div>
+                </section>
+            </div>
+            <div id="education" style="background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801) ), url('img/background2.jpg'); background-size: cover; ">
+                <section class="header"><h1>Education</h1></section>
+                <p>Coming Soon!</p>
+            </div>
+        
             <div id="contact">
                 <section class="stawrt">
                     <h1>
@@ -79,7 +121,7 @@
                     <p>sfhsasa@gmail.com</p>
                 </section>
             </div>
-            <div id="signupbtn" style="background: linear-gradient(to left,rgb(5, 5, 20),rgba(5, 5, 20, 0.966),rgba(5, 5, 20, 0.753), rgba(5, 5, 20, 0.123) ), url('img/background2.jpg'); background-size: cover; ">
+            <div id="signupbtn" style="background: linear-gradient(to left,rgb(5, 5, 20),rgba(5, 5, 20, 0.966),rgba(5, 5, 20, 0.753), rgba(5, 5, 20, 0.123) ), url('img/prathamgupta.jpg'); background-size: cover; ">
 
 
                         <section class="header">
