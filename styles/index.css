@@ -718,7 +718,7 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:column;
         background-color:rgba(255, 255, 255, 0);
-        width: 60vw;
+        width: 60.1vw;
         margin-right: 5vw;
         margin-left: 5vw;
         margin: 0 auto;
