@@ -438,6 +438,9 @@ nav #signupbutn:hover{
     html{
         scroll-behavior: smooth;
     }
+    html h1{
+        font-family:'Times New Roman', Times, serif !important;
+    }
     .linkup{
         position:relative;
         top:-10vh;
