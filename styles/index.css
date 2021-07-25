@@ -438,9 +438,7 @@ nav #signupbutn:hover{
     html{
         scroll-behavior: smooth;
     }
-    html h1{
-        font-family:'Times New Roman', Times, serif !important;
-    }
+
     .linkup{
         position:relative;
         top:-10vh;
@@ -742,7 +740,7 @@ nav #signupbutn:hover{
         display:flex;
         flex-direction:column;
         color:rgba(255, 255, 255, 0.658);
-        font-family: STIX Two Math;
+        font-family: roboto;
         text-align: left;
         font-size:59.9px;
         padding: 0px;
