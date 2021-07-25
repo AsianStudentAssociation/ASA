@@ -787,8 +787,9 @@ nav #signupbutn:hover{
          background-color:rgb(5, 5, 20)
      }
     #education h1{
-        font-family:roboto;
         font-size: 61px;
+        font-family:roboto;
+
         border-bottom: 5px solid #9a0000;
         text-align:center;
         color: rgba(255, 255, 255, 0.836);
