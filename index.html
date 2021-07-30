@@ -1,8 +1,14 @@
 <html>
     <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/logotransparent.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/logotransparent.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/logotransparent.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <title>Asian Student Association</title>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <script src="https://kit.fontawesome.com/df7e7c41fe.js" crossorigin="anonymous"></script>
-
     </head>
     <body>
         <nav>
@@ -106,16 +112,16 @@
                     </h4>
                     <div class="awd">
                     <div>
-                        <i class="fab fa-instagram"></i> 
+                        <i class="fab fa-instagram" onclick="window.open('https://www.instagram.com/sfhs_asa/')"></i> 
                     </div>
                     <div>
-                        <i class="fab fa-twitter"></i> 
+                        <i class="fab fa-twitter" onclick="alert('Coming soon!')"></i> 
                     </div>
                     <div>
-                        <i class="fab fa-facebook-f"></i> 
+                        <i class="fab fa-facebook-f" onclick="alert('Coming soon!')"></i> 
                     </div>
                     <div>
-                        <i class="fab fa-linkedin-in"></i> 
+                        <i class="fab fa-linkedin-in" onclick="alert('Coming soon!')"></i> 
                     </div>
                 </div>
                 </section>
@@ -152,7 +158,11 @@
                       ).then((html) => {
                         // you can put any JS code here
                         alert('success');
-                        document.getElementById("input").value = "";
+                        document.getElementById("input1").value = "";
+                        document.getElementById("input2").value = "";
+                        document.getElementById("input3").value = "";
+                        document.getElementById("input4").value = "";
+            
                       });
                     });
                     </script>
